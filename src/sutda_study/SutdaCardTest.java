@@ -30,4 +30,13 @@ class SutdaCard {
 	public String toString() {
 		return NUM + (ISKWANG ? "K" : "");
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof SutdaCard) {
+			SutdaCard s = (SutdaCard)obj;		
+			return NUM == s.NUM && ISKWANG == s.ISKWANG;
+		}
+		return false;
+	}
 }
