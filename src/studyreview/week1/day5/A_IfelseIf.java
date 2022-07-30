@@ -32,6 +32,5 @@ public class A_IfelseIf {
 		
 		System.out.printf("당신의 점수는 %d이고, 성적은 %s등급입니다.\n", score, grade);
 	}
-	
-	// if else + 
+
 }
